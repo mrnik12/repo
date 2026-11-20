@@ -5,7 +5,7 @@ ShazamX restores song recognition in Shazam 5.5.1 on iOS 6. It displays the reco
 ## Install
 
 1. Install Shazam 5.5.1 first.
-2. Add `https://mrnik12.github.io/repo/` under **Cydia → Sources → Edit → Add**, then install **ShazamX**. For manual installation, get the [.deb from GitHub Releases](https://github.com/mrnik12/repo/releases/latest).
+2. Add `https://mrnik12.github.io/repo/` under **Cydia → Sources → Edit → Add**, then install **ShazamX**. For manual installation, get the [.deb from GitHub Releases](https://github.com/mrnik12/ShazamX/releases/latest).
 3. Open Shazam and tap the blue dial. The tweak can be switched off under **Settings → ShazamX**.
 
 The hosted build uses your internet connection and has the relay address built in. When you tap the dial, it records a short clip and sends it to the hosted relay for recognition. The free relay can take about a minute to wake after being idle.
