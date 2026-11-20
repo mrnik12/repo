@@ -1,0 +1,16 @@
+Package: org.legacyshazam.smoke
+Name: ShazamX
+Version: 0.3.6
+Architecture: iphoneos-arm
+Description: Restores song recognition in Shazam 5.5.1 on iOS 6. Install Shazam Free 5.5.1 before installing this tweak. Also adds a settings pane that has a toggle for turning this tweak on and off.
+Maintainer: mrnik12
+Author: mrnik12
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: file:///Library/Application%20Support/LegacyShazam/Icon.png
+Filename: ./debs/org.legacyshazam.smoke_0.3.6_iphoneos-arm.deb
+Size: 18442
+MD5sum: b6b4eb514d49e4a19dbb44dfc52100db
+SHA1: 2d41650585b49b668195f9f24291d66e607916ce
+SHA256: 51abfd2bc3c6734a488518e14d45e5c7977a48808b7fb0538ea26c5ec22fcd03
+
