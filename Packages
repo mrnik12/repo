@@ -25,3 +25,26 @@ MD5sum: 353bddd5cb618933e0ba24199f9cbe5b
 SHA1: 8841bbeaa46432ca629f3dd55ba6f7c0d100a3e7
 SHA256: 0b00919c11330109459b8dfcc93ba055e818785cb687ab64ef0582cfb3a0b626
 
+Package: org.legacyshazam.smoke
+Name: ShazamX
+Version: 0.3.7
+Architecture: iphoneos-arm
+Description: Restores song recognition in Shazam 5.5.1 on iOS 6.
+ .
+ Install Shazam 5.5.1 before installing this tweak.
+ .
+ Turn the tweak on or off in Settings > ShazamX.
+ .
+ Tested on iPhone 4S running iOS 6.1.3. Other iOS 6 devices may work.
+Maintainer: mrnik12
+Author: mrnik12
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: file:///Library/Application%20Support/LegacyShazam/Icon.png
+Depiction: https://mrnik12.github.io/repo/shazamx.html
+Filename: ./debs/org.legacyshazam.smoke_0.3.7_iphoneos-arm.deb
+Size: 18498
+MD5sum: 2e1d52e3452f30cc72db8d11e619a830
+SHA1: db2887a6873cc6a389a9e004871c1aad425e0bc1
+SHA256: 377519f58bb571f728e3b0648a50aa410c308aebabe86fdd15488eadc47f9af7
+
