@@ -1,12 +1,129 @@
 <!doctype html>
 <html lang="en">
+<head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Song recognition for Shazam 5.5.1 on iOS 6 and Shazam 7.2.0 on iOS 7.">
 <title>ShazamX</title>
-<style>body{font:15px -apple-system,Helvetica,Arial,sans-serif;color:#212121;margin:12px 16px;line-height:1.45}p{margin:0 0 10px}</style>
+<style>
+  body {
+    margin: 0;
+    background: #edf1f5;
+    color: #172537;
+    font: 15px/1.45 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  main { display: block; max-width: 560px; margin: 0 auto; padding: 14px 12px 24px; }
+  h1, h2, h3, p { margin: 0; }
+  .summary {
+    background: #132940;
+    color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .package { display: table; width: 100%; }
+  .package-icon { display: table-cell; width: 60px; padding-right: 12px; vertical-align: middle; }
+  .package-icon img { display: block; }
+  .package-title { display: table-cell; vertical-align: middle; }
+  h1 { font-size: 27px; line-height: 1.15; }
+  .version { font-size: 13px; color: #b6d2e4; margin-top: 4px; }
+  .summary p { margin-top: 12px; color: #e3eef6; }
+  h2 { margin: 20px 0 7px; color: #475a70; font-size: 14px; line-height: 1.3; }
+  .group {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #cdd7e0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .group > li { padding: 10px 12px; }
+  .group > li + li { border-top: 1px solid #dce3eb; }
+  .compatibility { border-collapse: separate; border-spacing: 0; width: 100%; }
+  .compatibility th, .compatibility td { padding: 9px 11px; text-align: left; }
+  .compatibility thead th { background: #f7f9fc; color: #52647a; font-size: 12px; }
+  .compatibility tbody th { font-weight: bold; white-space: nowrap; }
+  .compatibility tbody th, .compatibility tbody td { border-top: 1px solid #dce3eb; }
+  .compatibility td { color: #1e634a; }
+  .compatibility .untested { color: #80521b; }
+  .note { margin: 8px 1px 0; color: #475a70; font-size: 13px; }
+  h3 { font-size: 15px; }
+  h3 + p { margin-top: 3px; color: #475a70; }
+  .release {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background: #e2eff9;
+    color: #174b73;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .release + p { margin-top: 6px; }
+  .links > li { padding: 0; }
+  a { color: #175987; }
+  .links a { display: block; padding: 11px 12px; font-weight: bold; text-decoration: none; }
+  .links a:active { background: #e2eff9; }
+</style>
+</head>
+<body>
 <main>
-<p>ShazamX 0.4.0 restores song recognition for Shazam 5.5.1 on iOS 6 and Shazam 7.2.0 on iOS 7 (8-10 may work, needs testing). Install the matching Shazam app first.</p>
-<p>Netrun is the default recognition server. Render remains available in Settings &gt; ShazamX.</p>
-<p>On Shazam 7.2.0, Add to Tags opens My Tags. Saved tags show their cached cover art.</p>
+  <div class="summary">
+    <div class="package">
+      <div class="package-icon"><img src="source/tweak/layout/Library/Application%20Support/LegacyShazam/Icon.png" width="60" height="60" alt=""></div>
+      <div class="package-title">
+        <h1>ShazamX</h1>
+        <div class="version">v0.4.0 &middot; mrnik12</div>
+      </div>
+    </div>
+    <p>Restores song recognition in older versions of Shazam.</p>
+  </div>
+
+  <h2 id="compatibility">Compatibility</h2>
+  <table class="group compatibility" aria-labelledby="compatibility">
+    <thead>
+      <tr><th scope="col">iOS</th><th scope="col">Shazam version</th></tr>
+    </thead>
+    <tbody>
+      <tr><th scope="row">iOS 6</th><td>5.5.1</td></tr>
+      <tr><th scope="row">iOS 7</th><td>7.2.0</td></tr>
+      <tr><th scope="row">iOS 8&ndash;10</th><td class="untested">7.2.0<br>May work &middot; Untested</td></tr>
+    </tbody>
+  </table>
+  <p class="note">Install the matching version of Shazam first. Song recognition requires internet access.</p>
+
+  <h2>Features</h2>
+  <ul class="group">
+    <li>
+      <h3>Song recognition</h3>
+      <p>Tap the Shazam dial to see the song title, artist, and cover art.</p>
+    </li>
+    <li>
+      <h3>My Tags</h3>
+      <p>Find saved songs in Shazam. On 7.2.0, tap Add to Tags to save a match.</p>
+    </li>
+    <li>
+      <h3>Settings</h3>
+      <p>Enable the tweak or choose a recognition server under Settings &rsaquo; ShazamX.</p>
+    </li>
+  </ul>
+
+  <h2>Changelog</h2>
+  <ul class="group">
+    <li>
+      <span class="release">v0.4.0</span>
+      <p>On 7.2.0, Add to Tags opens My Tags and saved tags use cached covers. Improved cover thumbnail sizing on 5.5.1.</p>
+    </li>
+    <li>
+      <span class="release">v0.3.8</span>
+      <p>Added inline Listening and Sending status, plus tagging from the bottom Shazam tab.</p>
+    </li>
+  </ul>
+
+  <h2>Links</h2>
+  <ul class="group links">
+    <li><a href="https://github.com/mrnik12/repo#source">Source code</a></li>
+    <li><a href="https://github.com/mrnik12/repo/releases">Downloads and release notes</a></li>
+  </ul>
 </main>
+</body>
 </html>
