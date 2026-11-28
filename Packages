@@ -11,8 +11,8 @@ Description: Song recognition for Shazam 5.5.1 on iOS 6 and Shazam 7.2.0 on iOS 
  Known limitation: opening a saved tag can remain on the loading screen on Shazam 7.2.0.
  .
  Enable or disable ShazamX in Settings > ShazamX.
-Maintainer: mrnik12
-Author: mrnik12
+Maintainer: mrnik
+Author: mrnik
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: file:///Library/Application%20Support/LegacyShazam/Icon.png
@@ -34,8 +34,8 @@ Description: Song recognition for Shazam 5.5.1 on iOS 6 and Shazam 7.2.0 on iOS 
  On Shazam 7.2.0, Add to Tags opens My Tags, and saved tags show cached cover art when available.
  .
  Enable or disable ShazamX in Settings > ShazamX.
-Maintainer: mrnik12
-Author: mrnik12
+Maintainer: mrnik
+Author: mrnik
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: file:///Library/Application%20Support/LegacyShazam/Icon.png
@@ -61,8 +61,8 @@ Description: Song recognition for Shazam 5.5.1 on iOS 6 and Shazam 7.2.0 on iOS 
  Known limitation: opening a saved tag can remain on the loading screen.
  .
  Enable or disable ShazamX in Settings > ShazamX.
-Maintainer: mrnik12
-Author: mrnik12
+Maintainer: mrnik
+Author: mrnik
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: file:///Library/Application%20Support/LegacyShazam/Icon.png
@@ -84,8 +84,8 @@ Description: Restores song recognition in Shazam 5.5.1 on iOS 6.
  Turn the tweak on or off in Settings > ShazamX.
  .
  Tested on iPhone 4S running iOS 6.1.3. Other iOS 6 devices may work.
-Maintainer: mrnik12
-Author: mrnik12
+Maintainer: mrnik
+Author: mrnik
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: file:///Library/Application%20Support/LegacyShazam/Icon.png
