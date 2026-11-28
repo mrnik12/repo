@@ -8,8 +8,6 @@ Description: Song recognition for Shazam 5.5.1 on iOS 6 and Shazam 7.2.0 on iOS 
  .
  Netrun is the default recognition server. Render remains available in Settings.
  .
- Known limitation: opening a saved tag can remain on the loading screen on Shazam 7.2.0.
- .
  Enable or disable ShazamX in Settings > ShazamX.
 Maintainer: mrnik
 Author: mrnik
