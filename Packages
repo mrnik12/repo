@@ -1,5 +1,30 @@
 Package: org.legacyshazam.smoke
 Name: ShazamX
+Version: 0.4.1
+Architecture: iphoneos-arm
+Description: Song recognition for Shazam 5.5.1 on iOS 6 and Shazam 7.2.0 on iOS 7.
+ .
+ Record tags offline and retry them automatically when Shazam is open and back online.
+ .
+ Netrun is the default recognition server. Render remains available in Settings.
+ .
+ Known limitation: opening a saved tag can remain on the loading screen on Shazam 7.2.0.
+ .
+ Enable or disable ShazamX in Settings > ShazamX.
+Maintainer: mrnik12
+Author: mrnik12
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: file:///Library/Application%20Support/LegacyShazam/Icon.png
+Depiction: https://mrnik12.github.io/repo/shazamx.html
+Filename: ./debs/org.legacyshazam.smoke_0.4.1_iphoneos-arm.deb
+Size: 56508
+MD5sum: e9583b7e88ff9506a5603f0dc8b53399
+SHA1: 0c7064939ce43ba306c260540ba905afc8c95734
+SHA256: 071c5a9aad8e293c3f0dea24c23f302a228fdc897664218dbd9f78867633f918
+
+Package: org.legacyshazam.smoke
+Name: ShazamX
 Version: 0.4.0
 Architecture: iphoneos-arm
 Description: Song recognition for Shazam 5.5.1 on iOS 6 and Shazam 7.2.0 on iOS 7.

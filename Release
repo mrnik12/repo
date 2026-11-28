@@ -6,16 +6,16 @@ Codename: stable
 Architectures: iphoneos-arm
 Components: main
 Description: Cydia packages by mrnik
-Date: Sun, 22 Nov 2026 01:45:58 GMT
+Date: Sat, 28 Nov 2026 06:05:10 GMT
 MD5Sum:
- 20a2a94611b9233b3c01eb16199cad4c     2689 Packages
- 56d3272cfe44c2897dd9e83ed7d787db     1025 Packages.gz
- cdff6244b3e2f537bb29ab707f28228a     1181 Packages.bz2
+ a74870c9073a56e5686dca39a1d2d40f     3705 Packages
+ 0d33ac9f1033574e96a4f9d6a04917bc     1249 Packages.gz
+ ba3f5072cdda050ca7c289858dda6c53     1424 Packages.bz2
 SHA1:
- f53ffdb05f1c88aba3e010504941210d50546cec     2689 Packages
- a83aec1e4eb183ab13234f79b9e1df0346ab5a60     1025 Packages.gz
- 8ce77ed8fc3ecc12d7ca25fd351708f814714639     1181 Packages.bz2
+ c892a41b6c19c4bee8379b9acfd4f744a817de14     3705 Packages
+ a819b4fae36a12a5ad83d0fbc4656c73e2927595     1249 Packages.gz
+ 1cce04152968f2da5cd143037110c55632db4252     1424 Packages.bz2
 SHA256:
- 78b4cde80b64debee02d68a03b372e2f7f9ca54b3b3c7af80773729317e95a05     2689 Packages
- 7d53ab8c43cf426d510bb21e837efd82ba68f37f2b3a47910688f018339d104b     1025 Packages.gz
- 5ee9db58c8c8d2f3c993cb034874098eeef0afb43fe905e24adc911e4c494898     1181 Packages.bz2
+ 205af672abbe66bc060424429f13b1cb8754cf2e00f7dea68026532c09d6baf4     3705 Packages
+ eed05c4d9ff88e5ac5a1a2a6d5fabc6539e92f081bb0ee390382c4ed76f9e57c     1249 Packages.gz
+ bed27743a4d5e16d759db63666b8ae99d9096785120fad0194af0782f40a96cc     1424 Packages.bz2
