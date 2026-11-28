@@ -1,1 +1,1 @@
-- [MIT license](source/LICENSE) — Applies to the original project source. Shazam itself is distributed separately.
+[MIT license](source/LICENSE) — Applies to the original project source.
